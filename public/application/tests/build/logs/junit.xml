@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CodeIgniter Application Test Suite" tests="6" assertions="6" errors="0" failures="3" skipped="0" time="4.900226">
+    <testsuite name="Page_test" file="/var/www/html/di/public/application/tests/controllers/Page_test.php" tests="6" assertions="6" errors="0" failures="3" skipped="0" time="4.900226">
+      <testcase name="test_index" class="Page_test" classname="Page_test" file="/var/www/html/di/public/application/tests/controllers/Page_test.php" line="10" assertions="1" time="0.018364"/>
+      <testcase name="test_process_contact_form_001" class="Page_test" classname="Page_test" file="/var/www/html/di/public/application/tests/controllers/Page_test.php" line="16" assertions="1" time="2.558873"/>
+      <testcase name="test_process_contact_form_002" class="Page_test" classname="Page_test" file="/var/www/html/di/public/application/tests/controllers/Page_test.php" line="30" assertions="1" time="0.016379">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">Page_test::test_process_contact_form_002
+Failed asserting that '{"error":1,"message":"&lt;li&gt;The First Name field is required.&lt;\/li&gt;\n"}' contains ""error":0".
+
+/var/www/html/di/public/application/tests/controllers/Page_test.php:41
+</failure>
+      </testcase>
+      <testcase name="test_process_contact_form_003" class="Page_test" classname="Page_test" file="/var/www/html/di/public/application/tests/controllers/Page_test.php" line="44" assertions="1" time="0.013825">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">Page_test::test_process_contact_form_003
+Failed asserting that '{"error":1,"message":"&lt;li&gt;The Phone Number field should be ten digits in length, following US phone number rules.&lt;\/li&gt;\n"}' contains ""error":0".
+
+/var/www/html/di/public/application/tests/controllers/Page_test.php:55
+</failure>
+      </testcase>
+      <testcase name="test_process_contact_form_004" class="Page_test" classname="Page_test" file="/var/www/html/di/public/application/tests/controllers/Page_test.php" line="58" assertions="1" time="0.014713">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">Page_test::test_process_contact_form_004
+Failed asserting that '{"error":1,"message":"&lt;li&gt;The Phone Number field should be ten digits in length, following US phone number rules.&lt;\/li&gt;\n"}' contains ""error":0".
+
+/var/www/html/di/public/application/tests/controllers/Page_test.php:69
+</failure>
+      </testcase>
+      <testcase name="test_process_contact_form_005" class="Page_test" classname="Page_test" file="/var/www/html/di/public/application/tests/controllers/Page_test.php" line="72" assertions="1" time="2.278072"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

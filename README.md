@@ -71,3 +71,14 @@ You should have PHPUnit-compatible unit tests for your application.
 Provide either a database schema file or a programmatic way of creating your database / tables.
  
 The completed work is available in a public git repository for us to checkout and review.
+
+## Additional Info
+
+CodeIgniter (CI) 3.1.6 was used to develop.  CI has a built in testing code but not as robust as PHPUnit.  Therefore it does not intergrate easily with PHPUnit.  A third party plugin CI_PHPUnit (https://github.com/kenjis/ci-phpunit-test) was used to bridge the gap.
+
+Due to the nature of CI and the CI_PHPUnit plugin, phpunit command must be run in the following manner:
+
+```
+cd your-repo-checkout/public/application/tests/
+phpunit
+```
